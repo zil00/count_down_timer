@@ -62,22 +62,27 @@ body {
 .heading{
     display: flex;
     justify-content: center;
-    font-size: larger;
+    font-size: x-large;
 }
 
 form{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 10px;
     margin-bottom: 20px;
-
 }
 input{
     height: 25px;
     border-radius: 5px;
     background-color: transparent;
 }
+label{
+    font-size: xx-large;
+}
+
+
 
 
 
