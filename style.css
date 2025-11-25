@@ -2,6 +2,10 @@
     font-family: PermanentMarker-Regular;
     src: url(Permanent_Marker/PermanentMarker-Regular.ttf);
 }
+@font-face {
+    font-family: DIGITALDREAM;
+    src: url(digital-dream/DIGITALDREAM.ttf);
+}
 .container{
     display: flex;
     justify-content: center;
@@ -33,31 +37,55 @@ body {
     position: center;
 }
 .timer{
-    background-color: turquoise;
+    background-color: transparent;
 }
-.box_1{
+.days{
+    display: flex;
     height: 100px;
     width: 100px;
-    border: 2px solid black;
-    background-color: black;
+    border: none;
+    background-color: transparent;
+    justify-content: center;
+    align-items: center;
+    font-family: DIGITALDREAM, Arial, sans-serif;
+    font-size: xxx-large;
+    filter: invert(1);
 }
-.box_2{
+.hours{
+    display: flex;
     height: 100px;
     width: 100px;
-    border: 2px solid black;
-    background-color: black;
+    border: none;
+    background-color: transparent;
+    justify-content: center;
+    align-items: center;
+    font-family: DIGITALDREAM, Arial, sans-serif;
+    font-size: xxx-large;
+    filter: invert(1);
 }
-.box_3{
+.minutes{
+    display: flex;
     height: 100px;
     width: 100px;
-    border: 2px solid black;
-    background-color: black;
+    border: none;
+    background-color: transparent;
+    justify-content: center;
+    align-items: center;
+    font-family: DIGITALDREAM, Arial, sans-serif;
+    font-size: xxx-large;
+    filter: invert(1);
 }
-.box_4{
+.seconds{
+    display: flex;
     height: 100px;
     width: 100px;
-    border: 2px solid black;
-    background-color: black;
+    border: none;
+    background-color: transparent;
+    justify-content: center;
+    align-items: center;
+    font-family: DIGITALDREAM, Arial, sans-serif;
+    font-size: xxx-large;
+    filter: invert(1);
 }
 .heading{
     display: flex;
@@ -129,6 +157,7 @@ input[type="submit"] {
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
+
 
 
 
