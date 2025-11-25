@@ -56,6 +56,9 @@ body {
 p[id = "title"]{
     font-size: large;
 }
+.num{
+    margin: 0;
+}
 .hours{
     display: flex;
     flex-direction: column;
