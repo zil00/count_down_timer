@@ -32,9 +32,9 @@ body {
     display: flex;
     
     justify-content: space-evenly;
-    align-items: center;
-    height: 300px;
-    width: 2000px;
+    align-items: baseline;
+    height: 200px;
+    width: 650px;
     position: center;
 }
 .timer{
@@ -42,7 +42,6 @@ body {
 }
 .days{
     display: flex;
-
     height: 100px;
     width: 100px;
     border: none;
@@ -53,7 +52,9 @@ body {
     font-family: DIGITALDREAM, Arial, sans-serif;
     font-size: xxx-large;
     filter: invert(1);
-
+}
+p[id = "title"]{
+    font-size: large;
 }
 .hours{
     display: flex;
