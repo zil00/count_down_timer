@@ -8,6 +8,7 @@
     align-items: first baseline;
     
 }
+
 html, body {
     height: 100%;
     margin: 0;
@@ -64,8 +65,19 @@ body {
     font-size: larger;
 }
 
-.form{
+form{
     display: flex;
     justify-content: center;
-    font-size: medium;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+
 }
+input{
+    height: 25px;
+    border-radius: 5px;
+    background-color: transparent;
+}
+
+
+
