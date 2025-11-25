@@ -1,3 +1,7 @@
+@font-face {
+    font-family: PermanentMarker-Regular;
+    src: url(Permanent_Marker/PermanentMarker-Regular.ttf);
+}
 .container{
     display: flex;
     justify-content: center;
@@ -10,6 +14,7 @@ html, body {
 }
 
 body {
+    font-family: PermanentMarker-Regular, Arial, sans-serif;
     background-image: url("pexels-eberhardgross-691668.jpg");
     background-size: cover;
     background-position: center;
@@ -52,4 +57,15 @@ body {
     width: 100px;
     border: 2px solid black;
     background-color: black;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    font-size: larger;
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+    font-size: medium;
 }
