@@ -42,19 +42,20 @@ body {
 }
 .days{
     display: flex;
+    flex-direction: column;
     height: 100px;
     width: 100px;
     border: none;
     background-color: transparent;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
     font-family: DIGITALDREAM, Arial, sans-serif;
     font-size: xxx-large;
     filter: invert(1);
 }
-p[id = "title"]{
+p.title{
     font-size: large;
+    font-weight: 1000;
 }
 .num{
     margin: 0;
