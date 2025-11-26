@@ -3,7 +3,7 @@ const hours = document.getElementById("two");
 const minutes = document.getElementById("three");
 const seconds = document.getElementById("four");
 const form = document.getElementById("myform");
-
+change = document.getElementById("changetext");
 targetDate = new Date("December 16, 2025 09:00:00").getTime();
 
 form.addEventListener("submit", function(event){
@@ -11,6 +11,7 @@ form.addEventListener("submit", function(event){
     const dateInput = document.getElementById("date").value;
     const name = document.getElementById("name").value;
     targetDate = new Date(dateInput).getTime();
+    change.innerText = name;
 });
 function timer(){
     const now = new Date().getTime();
