@@ -7,9 +7,14 @@ change = document.getElementById("changetext");
 targetDate = new Date("December 16, 2025 09:00:00").getTime();
 
 form.addEventListener("submit", function(event){
+
     event.preventDefault();
     const dateInput = document.getElementById("date").value;
     const name = document.getElementById("name").value;
+    if(!dateInput || !name){
+        alert("Please fill in both fields.");
+        return;
+    }
     targetDate = new Date(dateInput).getTime();
     change.innerText = name;
 });
