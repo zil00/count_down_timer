@@ -2,9 +2,16 @@ const days = document.getElementById("one");
 const hours = document.getElementById("two");
 const minutes = document.getElementById("three");
 const seconds = document.getElementById("four");
+const form = document.getElementById("myform");
 
-const targetDate = new Date("December 16, 2025 09:00:00").getTime();
+targetDate = new Date("December 16, 2025 09:00:00").getTime();
 
+form.addEventListener("submit", function(event){
+    event.preventDefault();
+    const dateInput = document.getElementById("date").value;
+    const name = document.getElementById("name").value;
+    targetDate = new Date(dateInput).getTime();
+});
 function timer(){
     const now = new Date().getTime();
     const timeremaining = targetDate - now;
